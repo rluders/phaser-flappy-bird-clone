@@ -1,0 +1,17 @@
+{
+  "name": "flappy-bird",
+  "version": "0.0.1",
+  "description": "Flappy bird clone with Phaser and TypeScript",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Lüders <ricardo@luders.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-less": "^3.0.5",
+    "gulp-typescript": "^2.10.0",
+    "gulp-watch": "^4.3.5",
+    "merge2": "^0.3.6"
+  }
+}
