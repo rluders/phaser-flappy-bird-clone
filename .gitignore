@@ -113,5 +113,6 @@ composer.phar
 composer.lock
 
 build/*
-dist/js/app.js
+dist/js/*
+dist/js/phaser.js
 dist/css/*
