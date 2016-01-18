@@ -79,6 +79,7 @@ class WallSpawner {
         );
         this.game.physics.arcade.enableBody(wall);
         wall.start(flipped);
+        this.walls.add(wall);
         this.game.world.add(wall);
     }
 
@@ -115,7 +116,6 @@ class GameState extends BaseState {
 
     update() {
         this._wallSpawner.update();
-
         this.physics.arcade.collide(this._player, this._wallSpawner.walls, this.gameOver, null, this);
     }
 
